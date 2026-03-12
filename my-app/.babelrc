@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "> 0.5%"]  //przeglądarka ma działać do 2 oststnich pełnych wersji korzysta wiecej niż 5%
+        },
+        "modules": "commonjs",  // albo "auto" / false
+        "useBuiltIns": "usage", // dodaj polyfills automatycznie
+        "corejs": 3
+      }
+    ]
+  ]
+}

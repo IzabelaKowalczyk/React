@@ -1,0 +1,22 @@
+{
+  "name": "projekt1",
+  "version": "1.0.0",
+  "description": "opis",
+  "license": "ISC",
+  "author": "Izabela",
+  "type": "module",          
+  "main": "jakis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . "     
+  },
+  "dependencies": {
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
+    "typescript": "^5.9.3"
+  }
+}
